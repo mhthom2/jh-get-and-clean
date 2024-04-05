@@ -1,7 +1,6 @@
 # jh-get-and-clean
 
-The R script _run_analysis.R_ processes the data gathered by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-at their Smartlab-Non Linear Complex Systems Laboratory in Genoa, Italy. Their experiments were completed with 30 volunteers, who each performed six activities while wearing a smartphone on the waist. Using its embedded accelerometer and gyroscope, they captured 3-axial linear acceleration and 3-axial angular velocity. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+The R script _run_analysis.R_ processes the data gathered by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto at their Smartlab-Non Linear Complex Systems Laboratory in Genoa, Italy. Their experiments were completed with 30 volunteers, who each performed six activities while wearing a smartphone on the waist. Using its embedded accelerometer and gyroscope, they captured 3-axial linear acceleration and 3-axial angular velocity. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The script produces two data frames: **data** and **avg_data**. The **data** data frame contains the mean and standard deviation values for the provided variables in both the train and test datasets. It also includes the subject identifier and the activity the subject was performing. The **avg_data** data frame contains the average value of the variables in the **data** data frame for a given subject performing a given activity. 
 
